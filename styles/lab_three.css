@@ -26,6 +26,12 @@ iframe {
     .card {
       flex: 1 0 calc(100% - 20px);
     }
+    iframe {
+      width: 350px;
+    }
+    .video {
+      flex: 1 0 calc(100% - 20px);
+    }
 }
   
 @media (min-width: 768px) {
@@ -34,6 +40,9 @@ iframe {
     } 
     .card {
       flex: 1 0 calc(50% - 20px);
+    }
+    .video {
+      flex: 1 0 calc(100% - 20px);
     }
 }
   
